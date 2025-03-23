@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI工具导航 | 从需求到上线的必备资源</title>
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2980b9;
+            --text-color: #333;
+            --background-color: #f9f9f9;
+            --card-color: #fff;
+            --hover-color: #f5f5f5;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+        }
+        
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 30px 0;
+        }
+        
+        h1 {
+            font-size: 2.2em;
+            margin-bottom: 15px;
+            color: var(--primary-color);
+        }
+        
+        .subtitle {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .section {
+            background-color: var(--card-color);
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            padding: 25px;
+            transition: transform 0.3s ease;
+        }
+        
+        .section:hover {
+            transform: translateY(-5px);
+        }
+        
+        .section h2 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--primary-color);
+        }
+        
+        .links {
+            list-style: none;
+        }
+        
+        .links li {
+            margin-bottom: 15px;
+        }
+        
+        .links a {
+            display: block;
+            text-decoration: none;
+            color: var(--text-color);
+            padding: 10px;
+            border-radius: 5px;
+            transition: all 0.2s ease;
+        }
+        
+        .links a:hover {
+            background-color: var(--hover-color);
+            color: var(--primary-color);
+            padding-left: 15px;
+        }
+        
+        .links .link-name {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .links .link-url {
+            color: #777;
+            font-size: 0.9em;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding: 20px;
+            color: #777;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+            
+            .section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AI工具导航</h1>
+        <p class="subtitle">从需求收集到网站上线的一站式资源</p>
+    </header>
+    
+    <div class="container">
+        <div class="section">
+            <h2>需求收集和关键词调研</h2>
+            <ul class="links">
+                <li>
+                    <a href="https://www.searchsuggest.tips/?keyword=" target="_blank">
+                        <span class="link-name">谷歌下拉词</span>
+                        <span class="link-url">searchsuggest.tips</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.toolify.ai/Best-AI-Tools-revenue" target="_blank">
+                        <span class="link-name">Toolify 榜单</span>
+                        <span class="link-url">toolify.ai</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://theresanaiforthat.com/requests" target="_blank">
+                        <span class="link-name">AI 导航站需求列表</span>
+                        <span class="link-url">theresanaiforthat.com</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://ahrefs.com/keyword-difficulty" target="_blank">
+                        <span class="link-name">关键词难度分析</span>
+                        <span class="link-url">ahrefs.com</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>网站建设必备</h2>
+            <ul class="links">
+                <li>
+                    <a href="https://leandomainsearch.com/" target="_blank">
+                        <span class="link-name">域名查询 - Lean Domain Search</span>
+                        <span class="link-url">leandomainsearch.com</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://query.domains/" target="_blank">
+                        <span class="link-name">域名查询 - Query Domains</span>
+                        <span class="link-url">query.domains</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://spaceship.com" target="_blank">
+                        <span class="link-name">域名注册 - Spaceship</span>
+                        <span class="link-url">spaceship.com</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://namecheap.com" target="_blank">
+                        <span class="link-name">域名注册 - Namecheap</span>
+                        <span class="link-url">namecheap.com</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com" target="_blank">
+                        <span class="link-name">代码托管 - GitHub</span>
+                        <span class="link-url">github.com</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://cloudflare.com" target="_blank">
+                        <span class="link-name">网站托管 - Cloudflare</span>
+                        <span class="link-url">cloudflare.com</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>数据分析工具</h2>
+            <ul class="links">
+                <li>
+                    <a href="https://search.google.com/search-console" target="_blank">
+                        <span class="link-name">Google Search Console</span>
+                        <span class="link-url">search.google.com/search-console</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://analytics.google.com/analytics/web/#/" target="_blank">
+                        <span class="link-name">Google Analytics</span>
+                        <span class="link-url">analytics.google.com</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>竞品调研工具</h2>
+            <ul class="links">
+                <li>
+                    <a href="https://aitdk.com" target="_blank">
+                        <span class="link-name">流量和网页关键词分析</span>
+                        <span class="link-url">aitdk.com</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://ahrefs.com/free-seo-tools" target="_blank">
+                        <span class="link-name">外链分析工具</span>
+                        <span class="link-url">ahrefs.com/free-seo-tools</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://semrush.com" target="_blank">
+                        <span class="link-name">网站关键词分析</span>
+                        <span class="link-url">semrush.com</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>行业资讯</h2>
+            <ul class="links">
+                <li>
+                    <a href="https://liberating-doll-b8a.notion.site/Reddit-1a8e8aed91b18021839ecba8b74e530b" target="_blank">
+                        <span class="link-name">Reddit 子社区导航</span>
+                        <span class="link-url">liberating-doll-b8a.notion.site</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://developers.google.com/search/docs/fundamentals/creating-helpful-content?hl=zh-cn" target="_blank">
+                        <span class="link-name">谷歌搜索中心：SEO 基础知识</span>
+                        <span class="link-url">developers.google.com/search</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2025 AI工具导航 | 精选AI网站建设与SEO必备资源</p>
+    </footer>
+</body>
+</html>
